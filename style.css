@@ -295,6 +295,14 @@ h3 {
 	background: url(images/content_bottom.jpg) no-repeat;
 }
 
+
+#posts {
+	float:left;
+	width: 590px;
+	height: 590px;
+	padding: 0px;
+}
+
 /* footer */
 
 #footer_wrapper {
