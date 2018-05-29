@@ -8,12 +8,12 @@
 </head>
 
 <body>
-	
+
 	<!-- menu_wrapper -->
 	<div id="header_wrapper">
 		<!-- header -->
 		<div id="header">
-			<p>I am Vamsi Krishna.<br>Welcome to my website</p> 
+			<p>I am Vamsi Krishna.<br>Welcome to my website</p>
 		</div>
 		<!-- end of header -->
 	</div>
@@ -43,19 +43,18 @@
 				<p>This is feedback form. Appreciate your feedback ! </p>
 			</div>
 	<!-- Feedback Form -->
-		<form action="#" id="form" method="post" name="form">
-			<input name="vname" placeholder="Your Name" type="text" value="">
-			<input name="vemail" placeholder="Your Email" type="text" value="">
-			<input name="sub" placeholder="Subject" type="text" value="">
+		<form action="contact.php" id="form" method="post" name="form">
+			<input name="vname" placeholder="Your Name" type="text" value="" required>
+			<input name="vemail" placeholder="Your Email" type="text" value="" required>
+			<input name="vsub" placeholder="Subject" type="text" value="" required>
 			<label>Your Suggestion/Feedback</label>
-			<textarea name="msg" placeholder="Type your text here..."></textarea>
+			<textarea name="vmsg" placeholder="Type your text here..." required></textarea>
 			<input id="send" name="submit" type="submit" value="Send Feedback">
 		</form>
-		<h3><?php include "secure_email_code.php"?></h3>
 		</div>
 	<!-- Feedback Form Ends Here -->
 		<!-- <div class="cleaner"></div> -->
-	
+
 		<div id="web">
 			<h2>Social Media</h2>
 			<p style="text-align:left;"> So glad we are living in the 21st century and there are many ways to connect.</p>
@@ -65,11 +64,11 @@
 			<p style="text-align:left;color:blue;"> <a href="http://www.linkedin.com/in/krishnadba" class="fa fa-linkedin" style="color:white;"></a> - Connect to me on LinkedIn</p>
 			<p> </p>
 			<p style="text-align:left;color:blue;"> <a href="https://github.com/vamsitron" class="fa fa-github" style="color:white;"></a> - Checkout my work on Github</p>
-			
+
 		</div>
 		<div class="cleaner"></div>
 	</div>
-		
+
 <!-- Footer -->
 	<div id="footer_wrapper">
 		<div id="footer">
