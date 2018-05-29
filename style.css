@@ -381,6 +381,11 @@ color:#fff;
 font-family:'Raleway',sans-serif;
 font-size:18px
 }
+
+#send:hover {
+    opacity: 0.7;
+}
+
 div#feedback {
 text-align:center;
 height:440px;
